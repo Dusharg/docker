@@ -1,17 +1,18 @@
-import './App.css'
+import './App.css';
 
 function App() {
- 
-  return{
-  <div>
-  <h1>Welcome to my App</h1>
-  <form className='form' centered ="true">
-    <label htmlFor="name">Name:</label>
-    <input type="text" id="name" name="name" required />
-    <button type="submit">Submit</button>
-  </form>
-  </div>
-  }
+  return (
+    <div>
+      <h1>Welcome to My Production App</h1>
+
+      <form className="form">
+        <label htmlFor="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <button type="submit">Submit</button>
+      </form>
+
+    </div>
+  );
 }
 
-export default App
+export default App;
